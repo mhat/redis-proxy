@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{redis-proxy}
-  s.version = "0.0.0"
+  s.name    = %q{redis-proxy}
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors          = ["Matthew Knopp"]
   s.date             = %q{2010-12-25}
-  s.description      = %q{TODO: longer description of your gem}
+  s.description      = %q{adds mark_dead/alive to redis-rb via a proxy object}
   s.email            = %q{mknopp@yammer-inc.com}
   s.extra_rdoc_files = [
     "LICENSE",
